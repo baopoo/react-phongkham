@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login-background {
+    //background: -webkit-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
+    background-image: url('https://colorlib.com/etc/lf/Login_v4/images/bg-01.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+    .login-container{
+        max-width: 500px;
+        margin: 0 auto;
+        height: 100%;
+        border:1px solid #fff;
+        border-radius: 10px;
+        background-color: #fff;
+        .login-content{
+            padding: 10px 20px;
+
+            .text-login{
+                font-weight: 600;
+                font-size: 32px;
+                padding-top: 10px;;
+            }
+
+            .login-input{
+                margin: 7px 0;
+            }
+
+            .wrap-btn{
+                margin: 20px 0 5px;
+            }
+            
+            .btn-login{
+                width: 100%;
+                padding: 5px;
+                border-radius: 25px;
+                background: -webkit-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
+                color: #fff;
+                font-weight: 600;
+                font-size: 16px;
+                border: none;
+                text-transform: uppercase;
+            }
+            .btn-login:hover{
+                filter: brightness(150%);
+            }
+            .forgot-password{
+                display: flex;
+                align-items: center;
+                justify-content:right;
+            }
+
+            .login-using{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 30px 0 20px;
+                font-size: 16px;
+            }
+
+
+            .login-social{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+
+                .icon-google{
+                    font-size: 24px;
+                    color: #fff;
+                    background-color: #ea4335;
+                    padding: 10px 10px;
+                    border-radius: 100px;
+                }
+                .icon-facebook{
+                    font-size: 24px;
+                    color: #fff;
+                    background-color: #3b5998;
+                    padding: 10px 15px;
+                    border-radius: 100px;
+                    
+                }
+            }
+            .password-eye{
+                position: relative;
+            }
+            .icon-eye{
+                position: absolute;
+                top: 37px;
+                right: 30px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+        }
+    }
+}
